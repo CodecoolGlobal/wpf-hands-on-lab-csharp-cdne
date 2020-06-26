@@ -22,6 +22,29 @@
             Application Entry Point.
             </summary>
         </member>
+        <member name="T:HandsOnLab1.CustomerEdit">
+            <summary>
+            Interaction logic for CustomerEdit.xaml
+            </summary>
+            <summary>
+            CustomerEdit
+            </summary>
+        </member>
+        <member name="E:HandsOnLab1.CustomerEdit.PropertyChanged">
+            <summary>
+            Implicit implementation of the INotifyPropertyChanged.PropertyChanged event./// </summary>
+        </member>
+        <member name="M:HandsOnLab1.CustomerEdit.OnPropertyChanged(System.String)">
+            <summary>
+            Throws the <c>PropertyChanged</c> event.
+            </summary>
+            <param name="propertyName">The name of the property that was modified.</param>
+        </member>
+        <member name="M:HandsOnLab1.CustomerEdit.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
         <member name="T:HandsOnLab1.Window1">
             <summary>
             Interaction logic for Window1.xaml
@@ -234,6 +257,11 @@
             The Save Icon
             </summary>
         </member>
+        <member name="F:HandsOnLab1.Constants.ImageConstants.UNDO_ICON">
+            <summary>
+            The Undo Icon
+            </summary>
+        </member>
         <member name="T:HandsOnLab1.Converters.CurrencyConverter">
             <summary>
             Converts numeric values to a currency representation as a string. Can convert back again.
@@ -343,22 +371,22 @@
         </member>
         <member name="T:HandsOnLab1.Converters.UriToBitmapConverter">
             <summary>
-            Converter for transforming between <see cref="T:System.Uri"/> and <see cref="T:BitMap"/>.
+            Converter for transforming between <see cref="T:System.Uri"/> and <see cref="!:BitMap"/>.
             </summary>
         </member>
         <member name="M:HandsOnLab1.Converters.UriToBitmapConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
             <summary>
-            Convert <see cref="T:System.Uri"/> to <see cref="T:BitMap"/>
+            Convert <see cref="T:System.Uri"/> to <see cref="!:BitMap"/>
             </summary>
             <param name="value">An Unique Resource Identifier.</param>
             <param name="targetType">Target type.</param>
             <param name="parameter">Additional parameter</param>
             <param name="culture">CultureInfo</param>
-            <returns><see cref="T:BitMap"/> object based on the uri.</returns>
+            <returns><see cref="!:BitMap"/> object based on the uri.</returns>
         </member>
         <member name="M:HandsOnLab1.Converters.UriToBitmapConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
             <summary>
-            Convert a <see cref="T:BitMap"/> image to an <see cref="T:System.Uri"/>.
+            Convert a <see cref="!:BitMap"/> image to an <see cref="T:System.Uri"/>.
             </summary>
             <param name="value">The bitmap image to convert.</param>
             <param name="targetType">Target type</param>
